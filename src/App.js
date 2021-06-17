@@ -1,11 +1,20 @@
-
-import './App.css';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import './App.scss';
+import Navbar from './components/Navigationbar';
+import Home from './components/Pages/Home';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path="/" >
+          <Home />
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 
