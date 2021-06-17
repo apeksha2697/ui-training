@@ -1,6 +1,10 @@
 import {Container, Row, Col} from 'reactstrap';
 import './Home.scss';
 import { Button} from 'react-bootstrap';
+import image1 from '../images/image1.svg';
+import image2 from '../images/image2.svg';
+import image3 from '../images/image3.svg';
+import image4 from '../images/image4.svg';
 
 function Home() {
 	return (
@@ -27,7 +31,7 @@ function Home() {
 			<Container>
 				<Row >
 					<Col md={8}>
-						<img className='image' src={'https://discord.com/assets/46b2132c01604c9493d558de444929f4.svg'} alt=''/>
+						<img className='image' src={image1} alt=''/>
 					</Col>
 					<Col md={4}>
 						<div className="description">
@@ -46,12 +50,12 @@ function Home() {
 						</div>
 					</Col>
 					<Col md={8}>
-						<img className='image' src={'https://discord.com/assets/575a0322f3b36ca2fecb23ad2c6dd5ad.svg'} alt=''/>
+						<img className='image' src={image2} alt=''/>
 					</Col>
 				</Row>
 				<Row >
 					<Col md={8}>
-						<img className='image' src={'https://discord.com/assets/921b1ae33edca174b6ebe787bb8b6c3b.svg'} alt=''/>
+						<img className='image' src={image3} alt=''/>
 					</Col>
 					<Col md={4}>
 						<div className="description">
@@ -72,7 +76,7 @@ function Home() {
 				</Row>
 				<Row>
 					<Col>
-						<img className='image' src={'https://discord.com/assets/98ea5b9e92e304c7d352ac462996adc5.svg'} alt=''/>
+						<img className='image' src={image4} alt=''/>
 					</Col>
 				</Row>
         <Row id='last'>
