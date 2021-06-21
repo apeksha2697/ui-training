@@ -5,28 +5,31 @@ import image1 from '../images/image1.svg';
 import image2 from '../images/image2.svg';
 import image3 from '../images/image3.svg';
 import image4 from '../images/image4.svg';
+import Footer from '../Footer';
+import Navbar from '../Navigationbar';
 
 function Home() {
 	return (
 		<div>
-      <Row id='main'>
+		<Navbar />
+      	<Row id='main' style={{height:' 100vh', width: 'auto', background: 'blue'}}>
 			  <div className="description">
 					<h2>IMAGINE A PLACE...</h2>
 					<p>...where you can belong to a school club, a gaming group, or a worldwide art community. 
 						Where just you and a handful of friends can spend time together. 
 						A place that makes it easy to talk every day and hang out more often.</p>
-          <Button id='download'>
+          <Button style={{backgroundColor: 'white', color: 'black', borderRadius: '100px'}}>
               Download From Linux
           </Button>
-          <Button id='open'>
+          <Button style={{backgroundColor: 'black', color: 'white', borderRadius: '100px', marginLeft: '10px'}}>
             Open Discord in browser
           </Button>
         </div>
-        {/* <div className='image'>
-          <img className='back' src={'https://discord.com/assets/e6d57714479874c665b36c7adee76b1d.svg' } alt=''/>
-          <img className='left' src={'https://discord.com/assets/8a8375ab7908384e1fd6efe408284203.svg' } alt='' />
-          <img className='right' src={'https://discord.com/assets/c40c84ca18d84633a9d86b4046a91437.svg' } alt='' />
-        </div> */}
+        <div className='image'>
+          <img className='back' id='back' src={'https://discord.com/assets/e6d57714479874c665b36c7adee76b1d.svg' } alt=''/>
+          <img className='left' id='left' src={'https://discord.com/assets/8a8375ab7908384e1fd6efe408284203.svg' } alt='' />
+          <img className='right' id='right' src={'https://discord.com/assets/c40c84ca18d84633a9d86b4046a91437.svg' } alt='' />
+        </div>
       </Row>
 			<Container>
 				<Row >
@@ -75,19 +78,22 @@ function Home() {
 					</Col>
 				</Row>
 				<Row>
-					<Col>
-						<img className='image' src={image4} alt=''/>
+					<Col style={{position:'relative'}}>
+						<img className='big' style={{width: '100%'}}  src={image4} alt=''/>
 					</Col>
 				</Row>
         <Row id='last'>
           <div className="lastheading">
             <h2>Ready to start your journey?</h2>
-            <Button>
+            <div className="d-flex justify-content-center">
+            <Button >
               Download From Linux
             </Button>
+            </div>
           </div>
         </Row>
 			</Container>
+      <Footer />
 		</div>
 	)
 }
