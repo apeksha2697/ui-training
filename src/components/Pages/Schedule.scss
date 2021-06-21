@@ -1,0 +1,43 @@
+.navbar{
+  #responsive-navbar-nav{
+    .mr-auto{
+      margin-left: 150px;
+    }
+  }
+}
+
+  .row{
+    .col-md-9, .col-9{
+      height: 200px;
+      border: 1px solid rgb(54, 61, 70);
+    }
+    .col-md-3, .col-3{
+      padding-right: 0px;
+      div{
+        height: 200px;
+        border: 1px solid rgb(54, 61, 70);
+        p{
+          display: inline-block;
+          padding: 10px;
+          fill: rgb(54, 61, 70);
+        }
+        #plus{
+          margin-left: 80px;
+        }
+        #name-panel{
+          height: 140px;
+          color: blue;
+          .btn{
+            border-radius: 50%;
+            margin-right: 90px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (max-width: 1026px) { 
+    #name-panel, #plus, #fagripline, #faexpand { 
+      display: none; 
+    } 
+  }
