@@ -4,8 +4,9 @@ $blue-text-color: rgb(29, 9, 209);;
 .footer{
   background-color: black;
   .row{
-    margin-top: 40px;
-    .col-md-4, .col-md-2{
+    margin-top: 10px;
+    .col-md-3, .col-md-2, .col-6{
+      margin-right: -30px;
       h2{
         color: $blue-text-color;
         font-weight: 1000;
@@ -15,19 +16,20 @@ $blue-text-color: rgb(29, 9, 209);;
       }
       p{
         color: $blue-text-color;
+        margin-right: 20px;
       }
       ul{
         li{
           color: $white-text-color;
           list-style: none;
+          margin-right: 20px;
         }
       }
-      margin-bottom: 60px;
+      margin-bottom: 10px;
     }
     border-bottom: 4px solid $blue-text-color;
     margin-left: 40px;
     margin-right: 40px;
-    margin-bottom: 20px;
   }
   .col-md-12{
     padding: 50px;
