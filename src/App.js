@@ -4,6 +4,9 @@ import Home from './components/Pages/Home';
 import Float from './components/Pages/Float';
 import FloatNav from './components/FloatNav';
 import FloatFooter from './components/FloatFooter';
+import Lusha from './components/lusha/LushaHome';
+import LushaNav from './components/lusha/LushaNav';
+import LushaFooter from './components/lusha/LushaFooter';
 
 
 function App() {
@@ -13,7 +16,7 @@ function App() {
       <Switch>
         <Route path='/' exact>
 
-          <Redirect to='/float' />
+          <Redirect to='/lusha' />
         </Route>
         <Route path='/home' >
           <Home />
@@ -22,6 +25,11 @@ function App() {
           <FloatNav />
           <Float />
           <FloatFooter />
+        </Route>
+        <Route path='/lusha' >
+          <LushaNav />
+          <Lusha />
+          <LushaFooter />
         </Route>
       </Switch>
       
