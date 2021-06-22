@@ -24,6 +24,7 @@ import big2 from '../images/big2.png';
 import big3 from '../images/big3.png';
 import buzz from '../images/buzz.png';
 import bird from '../images/bird.png';
+import download from '../images/download.png';
 
 function Float() {
   return (
@@ -36,10 +37,9 @@ function Float() {
       <div className='try-free'>
         <Button>Try For Free</Button>
       </div>
-      <ul className='ul'>
-        <li>Captera</li>
-        <li>Crowd</li>
-      </ul>
+      <div className='center-image'>
+        <img src={download} alt='' />
+      </div>
       <Row>
         <Col md={12} xs={12}>
           <img className='image1' src={image1} alt='' />
