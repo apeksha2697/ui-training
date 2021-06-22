@@ -7,7 +7,7 @@ function FloatFooter() {
 			<Container fluid>
         <div className='floatfooter'>
         <Row>
-          <Col xs={12} md={6} >
+          <Col xs={12} md={3} >
             <div>
               <ul>
                 <p>
@@ -21,7 +21,7 @@ function FloatFooter() {
               </ul>
             </div>
           </Col>
-          <Col  xs={12} md={6}>
+          <Col  xs={12} md={3}>
             <div>
               <ul>
                 <p>
@@ -34,7 +34,7 @@ function FloatFooter() {
               </ul>
             </div>
           </Col>
-          <Col  xs={12} md={6} >
+          <Col  xs={12} md={3} >
             <div>
               <ul>
                 <p>
@@ -48,7 +48,7 @@ function FloatFooter() {
               </ul>
             </div>
           </Col>
-          <Col xs={12} md={6} >
+          <Col xs={12} md={3} >
             <div>
               <ul>
                 <p>
@@ -61,7 +61,7 @@ function FloatFooter() {
               </ul>
             </div>
           </Col>
-          <Col  xs={12} md={6} >
+          <Col  xs={12} md={3} >
             <div>
               <ul>
                 <p>Float 2021. All rights reserved</p>
