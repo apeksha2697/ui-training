@@ -4,8 +4,14 @@
   .floatfooter{
     .row{
       .col-12, .col-md-3{
+        .last{
+          margin-top: 60px;
+        }
         ul{
           list-style: none;
+          li{
+            color: grey;
+          }
         }
       }
     }

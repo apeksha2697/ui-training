@@ -62,7 +62,7 @@ function FloatFooter() {
             </div>
           </Col>
           <Col  xs={12} md={3} >
-            <div>
+            <div className='last'>
               <ul>
                 <p>Float 2021. All rights reserved</p>
               </ul>
