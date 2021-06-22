@@ -1,0 +1,20 @@
+#lushanav{
+  .navbar{
+    background-color: #600DFF;
+    .navbar-brand{
+      color: white;
+    }
+    #responsive-navbar-nav{
+      .mr-auto{
+        margin-left: 0;
+      }
+      .nav-link{
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        padding-left: 50px;
+      }
+      
+    }
+  }
+}
