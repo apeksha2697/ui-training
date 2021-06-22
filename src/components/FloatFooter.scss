@@ -1,0 +1,13 @@
+.container-fluid{
+  margin-top: 20px;
+  background-color: rgb(255, 255, 255);
+  .floatfooter{
+    .row{
+      .col-12, .col-md-6{
+        ul{
+          list-style: none;
+        }
+      }
+    }
+  }
+}
