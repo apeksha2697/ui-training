@@ -80,32 +80,32 @@ function Float() {
             </h2>
           </div>
         </Col>
-        <Col xs={6} sm={6} md={2} lg={2} xl={2}>
+        <Col xs={6} md={2} >
           <div>
             <img src={row1} alt="" />
           </div>
         </Col>
-        <Col xs={6} sm={6} md={2} lg={2} xl={2}>
+        <Col  xs={6} md={2}>
           <div>
             <img src={row2} alt="" />
           </div>
         </Col>
-        <Col xs={6} sm={6} md={2} lg={2} xl={2}>
+        <Col  xs={6} md={2}>
           <div>
             <img src={row3} alt="" />
           </div>
         </Col>
-        <Col xs={6} sm={6} md={2} lg={2} xl={2}>
+        <Col  xs={6} md={2}>
           <div>
             <img src={row4} alt="" />
           </div>
         </Col>
-        <Col xs={6} sm={6} md={2} lg={2} xl={2}>
+        <Col  xs={6} md={2}>
           <div>
             <img src={row5} alt="" />
           </div>
         </Col>
-        <Col xs={6} sm={6} md={2} lg={2} xl={2}>
+        <Col  xs={6} md={2}>
           <div>
             <img src={row6} alt="" />
           </div>
