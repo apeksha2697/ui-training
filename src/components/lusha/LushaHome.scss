@@ -25,7 +25,6 @@
     }
     .col-md-6{
       display: flex;
-      // justify-content: center;
       color: white;
       h1{
         font-weight: 900;
@@ -60,6 +59,25 @@
       }
     }
   }
+  #discover{
+    position: relative;
+    justify-content: center;
+    text-align: left;
+      h2{
+        font-weight: bolder;
+        font-size: 20px;
+        color: black;
+      }
+    
+  }
+  #block{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    h5{
+      font-weight: bolder;
+    }
+  }
   #logo{
     margin-top: 30px;
     position: relative;
@@ -80,7 +98,22 @@
       }
     }
   }
+  #sale{
+    position: relative;
+    justify-content: center;
+    .col-md-12, .col-12{
+      position: relative;
+      justify-content: center;
+      h2{
+        font-family: "Circular",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        font-weight: 900;
+        font-size: 42px;
+        color: black;
+      }
+    }
+  }
 }
+
 @media (max-width: 576px){
   #main-part{
   .col-12{
