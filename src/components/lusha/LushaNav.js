@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar,Nav, Button, FormControl, Form} from 'react-bootstrap';
+import {Navbar,Nav, FormControl, Form} from 'react-bootstrap';
 import logo from './images/logo.svg';
 import './LushaNav.scss';
 
