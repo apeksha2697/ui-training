@@ -30,7 +30,7 @@ function LushaHome() {
               <p>The top sales teams use Lusha to locate accurate B2B contact and company details, 
               shorten their sales discovery and close more deals.Signup field for the lusha app - 
               please enter your work email</p>
-              <label style={{border: "1px solid black", padding: "10px", background: "white", borderRadius: "10px", color:"grey"}}>Enter your Work Email<button type="button" className="btn btn-primary btn-lg" style={{marginLeft: "10px", backgroundColor: "#f80066", borderColor: "#f80066" }}>Start for free</button></label>
+              <label style={{border: "1px solid black", padding: "10px", background: "white", borderRadius: "10px", color:"grey", height: "50px"}}>Enter your Work Email<button type="button" className="btn btn-primary btn-sm" style={{marginLeft: "10px", backgroundColor: "#f80066", borderColor: "#f80066" }}>Start for free</button></label>
             </Col>
           </Col>
           <Col md={3} xs={12}>
@@ -173,7 +173,7 @@ function LushaHome() {
                 </div>
               </div>
             <div className="text-center col-12 col-lg-6 left" style={{padding: "0px", height: "100%"}}>
-              <div className="wow-one animated show" style={{position: "relative", minHeight: "600px", marginLeft: "50px", marginTop: "10px"}}>
+              <div className="wow-one animated show" style={{position: "relative", minHeight: "380px", marginLeft: "50px", marginTop: "10px"}}>
                 <img src="https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/02/integrations_shadow.svg" alt="" height="332" width="90%" style={{position: "absolute", zIndex: "0", left: "-10px", bottom: "-10px", width: "80%", height: "80%"}}/>
                   <img src="https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/02/integrations.svg" alt="" height="332" width="90%" style={{position: "absolute", zIndex: "1", left: "0px", bottom: "0px", width: "80%", height: "80%"}}/>
                 </div></div></div></div></div>
@@ -184,14 +184,18 @@ function LushaHome() {
           <Row>
             <section className="g2 container-fluid mb-10 mb-lg-0 mt-md-4 mt-lg-0"><div className="row pt-4 pt-sm-7 pb-5 pb-sm-9 pt-lg-0 pb-lg-0 py-lg-15 mb-lg-9 mt-lg-8"><div className="container"><div className="row align-items-center justify-content-center justify-content-lg-end"><div className="col-md-9 col-lg-5 text-center text-lg-left mb-12 mb-sm-7 mb-lg-0"><h3 className="g2__title">Our customers<br className="d-md-none"/> love us.<br className="d-none d-md-inline"/> We’ve gotten<br className="d-md-none"/> top marks on G2!</h3></div><div className="col-lg-6 text-center text-lg-right px-6 px-md-3"><div className="g2__image-wrap wow-one animated show" style={{visibility: "visible"}}> <img width="90%" height="178" src="https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/04/g2_cup.png" className="attachment-full size-full lazyloaded" alt="" sizes="(max-width: 434px) 100vw, 434px" srcSet="https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/04/g2_cup.png 434w, https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/04/g2_cup-300x123.png 300w, https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/04/g2_cup-176x72.png 176w, https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/04/g2_cup-36x15.png 36w, https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/04/g2_cup-48x20.png 48w" data-ll-status="loaded"/><noscript><img width="434" height="178" src="https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/04/g2_cup.png" class="attachment-full size-full" alt="" srcSet="https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/04/g2_cup.png 434w, https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/04/g2_cup-300x123.png 300w, https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/04/g2_cup-176x72.png 176w, https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/04/g2_cup-36x15.png 36w, https://mk0lusharbrlcx28627.kinstacdn.com/wp-content/uploads/2021/04/g2_cup-48x20.png 48w" sizes="(max-width: 434px) 100vw, 434px" /></noscript></div></div></div></div></div></section>
           </Row>
-          {/* <Row>
-          <section className="" id="abovefooter" style={{backgroundColor: "rgb(96, 13, 255)" }}><div className="lush_container__NtrLo">
-            <div className="row justify-content-center" style={{margin: "0px 0px 30px"}}><h2 style={{marginBottom: "2rem", fontSize: "clamp(25px, 5vw, 40px)", fontWeight: "900", color: "rgb(255, 255, 255)", marginTop: "2rem", lineHeight: "1.12"}}> Get Started with Lusha</h2></div>
-            <div className="row justify-content-center">
-              <div className="d-none d-lg-block">
-                <label style={{border: "1px solid black", padding: "10px", background: "white"}}>Enter your Work Email<button type="button" className="btn btn-primary btn-lg" style={{marginLeft: "10px", backgroundColor: "#f80066", borderColor: "#f80066" }}>Start for free</button></label></div><div className="d-block d-sm-block d-lg-none d-xs-block"><label className="" style={{backgroundColor: "white", color: "black", width: "100%", padding: "10px"}}>Enter your Work Email</label><button type="button" className="btn btn-primary btn-lg start-for-free ">Start for free</button></div></div></div><div className="container-fluid " style={{marginTop: "70px", fontSize: "12px"}}><div className="row justify-content-center align-content-center"><ul className=" d-none d-sm-flex" style={{color: "white"}}><li className="lla d-xs-none">5 free contact shows a month</li><li className="lla d-xs-none">Instant access</li><li className="lla d-xs-none">+121,000 companies love us</li><li className="lla d-none d-lg-block">GDPR &amp; CCPA aligned</li><li className="lla d-none d-lg-block">Monthly &amp; yearly contracts</li><li className=" d-none d-lg-block lla">Cancel anytime</li></ul></div></div></section>
-          </Row> */}
         </Container>
+        <Row id="above" style={{backgroundColor: "#600DFF"}}>
+          <Col md={12} sm={12} xs={12} lg={12}  >
+              <h2>Get Started with Lusha</h2>
+          </Col>
+          <Col md={12} sm={12} xs={12} lg={12}>
+          <label style={{border: "1px solid black", padding: "10px", background: "white", borderRadius: "10px", color:"grey", height: "50px"}}>Enter your Work Email<button type="button" className="btn btn-primary btn-sm" style={{marginLeft: "10px", backgroundColor: "#f80066", borderColor: "#f80066" }}>Start for free</button></label>
+          </Col>
+          <Col md={12} sm={12} xs={12} lg={12}>
+            <p>5 free contact shows a month Instant access+121,000 companies love us GDPR & CCPA aligned Monthly & yearly contracts Cancel anytime</p>
+          </Col>
+          </Row>
     </div>
   )
 }

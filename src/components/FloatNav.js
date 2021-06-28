@@ -7,8 +7,7 @@ function FloatNav() {
   return (
     <div>
       <div className='bar'>
-        <Navbar sticky="top" />
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" >
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed='top' >
           <Navbar.Brand  href="#home">
             <img src={float} alt='' />
           </Navbar.Brand>

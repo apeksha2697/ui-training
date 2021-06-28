@@ -150,7 +150,15 @@
     }
   }
 }
-
+#above{
+  .col-12, .col-md-12, .col-sm-12{
+    margin-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+}
 @media (max-width: 576px){
   #main-part{
   .col-12{
@@ -193,6 +201,18 @@
       position: relative;
     display: flex;
     justify-content: center;
+    }
+  }
+  #above{
+    .col-12, .col-md-12, .col-sm-12{
+      margin-top: 30px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      color: white;
+      p{
+        display: none;
+      }
     }
   }
 }
