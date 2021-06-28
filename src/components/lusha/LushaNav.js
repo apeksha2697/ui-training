@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar,Nav, FormControl, Form} from 'react-bootstrap';
+import {Navbar,Nav} from 'react-bootstrap';
 import logo from './images/logo.svg';
 import './LushaNav.scss';
 
@@ -7,7 +7,7 @@ function LushaNav() {
 	return (
 		<div>
       <div id='lushanav' >
-      <Navbar collapseOnSelect expand="lg" sticky="top" >
+      <Navbar collapseOnSelect expand="lg" fixed="top" >
         <Navbar.Brand  href="#home">
           <img src={logo} alt='' />
         </Navbar.Brand>
@@ -23,9 +23,7 @@ function LushaNav() {
         </Nav>
         <Nav> 
           <Nav.Link href="#downlod">Log In</Nav.Link>
-          <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          </Form>
+          <label style={{border: "1px solid black", padding: "10px", background: "white", borderRadius: "10px", color:"grey"}}>Enter your Work Email<button type="button" className="btn btn-primary btn-lg" style={{marginLeft: "10px", backgroundColor: "#f80066", borderColor: "#f80066" }}>Start for free</button></label>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -38,6 +38,11 @@
         width: fit-content;
       }
     }
+    .lushacount{
+      .a{
+        font-size: clamp(30px,4vw,40px);
+      }
+    }
   }
 }
 .container{
@@ -59,6 +64,23 @@
       }
     }
   }
+  #accurate{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+  }
+  #video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .col-md-9{
+      .video1{
+        width: 90%;
+        top: 0;
+      }
+    }
+  }
   #discover{
     position: relative;
     justify-content: center;
@@ -76,6 +98,21 @@
     text-align: center;
     h5{
       font-weight: bolder;
+    }
+  }
+  #accurate{
+    .col-md-12, .col-12{
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+    h2{
+      font-size: 50px;
+      font-weight: 900;
+      font-family: Inter,sans-serif;
+      color: black;
+      text-align: center;
+      padding-bottom: 20px;
     }
   }
   #logo{
@@ -139,6 +176,23 @@
     justify-content: center;
     #image7{
       margin-left: 100px;
+    }
+  }
+  #video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .col-md-12{
+      .video1{
+        width: 90%;
+      }
+    }
+  }
+  #accurate{
+    .col-md-12, .col-12{
+      position: relative;
+    display: flex;
+    justify-content: center;
     }
   }
 }
